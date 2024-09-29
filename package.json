@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jessmdeleon/Block30-BookFair#readme",
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.8"
   }
 }

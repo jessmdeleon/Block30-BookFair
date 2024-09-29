@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  plugins: [react()],
+  root: './', 
   build: {
     rollupOptions: {
-      input: 'src/main.jsx'  // Make sure this points to your JavaScript entry point file
+      input: 'index.html' 
     }
   }
 })
