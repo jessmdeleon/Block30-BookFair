@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jessmdeleon/Block30-BookFair/issues"
   },
-  "homepage": "https://github.com/jessmdeleon/Block30-BookFair#readme"
+  "homepage": "https://github.com/jessmdeleon/Block30-BookFair#readme",
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
 }
